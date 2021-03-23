@@ -1,0 +1,10 @@
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/config/SwaggerConfiguration.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/rest/ProducerResource.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/config/WebConfiguration.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/service/FilmService.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/WorstfilmsApplication.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/repository/FilmRepository.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/dto/FilmCsvDTO.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/dto/ProducerDTO.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/domain/Film.java
+/home/mazon/Documents/moa-repos/worstfilms/src/main/java/com/texoit/worstfilms/rest/FilmController.java

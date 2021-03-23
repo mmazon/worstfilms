@@ -1,0 +1,14 @@
+com/texoit/worstfilms/rest/ProducerResource.class
+com/texoit/worstfilms/domain/Film$FilmBuilder.class
+com/texoit/worstfilms/service/FilmService.class
+com/texoit/worstfilms/repository/FilmRepository.class
+com/texoit/worstfilms/WorstfilmsApplication.class
+com/texoit/worstfilms/config/WebConfiguration.class
+com/texoit/worstfilms/rest/FilmController.class
+com/texoit/worstfilms/domain/Film.class
+com/texoit/worstfilms/dto/FilmCsvDTO.class
+com/texoit/worstfilms/dto/ProducerDTO.class
+com/texoit/worstfilms/config/SwaggerConfiguration.class
+com/texoit/worstfilms/dto/ProducerDTO$ProducerDTOBuilder.class
+com/texoit/worstfilms/rest/ProducerResource$ProducerResourceBuilder.class
+com/texoit/worstfilms/dto/FilmCsvDTO$FilmCsvDTOBuilder.class

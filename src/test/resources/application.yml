@@ -1,0 +1,17 @@
+server:
+    port: 10344
+    address: localhost
+
+spring:
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:h2:mem:testms;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        name:
+        username:
+        password:
+    jpa:
+        database: H2
+        open-in-view: false
+        show-sql: false
+        hibernate:
+            ddl-auto: none
