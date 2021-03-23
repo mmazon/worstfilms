@@ -1,8 +1,6 @@
 # worstfilms
 API RESTful para possibilitar a leitura da lista de indicados e vencedores da categoria Pior Filme do Golden Raspberry Awards.
 
-Projeto desenvolvido seguindo como referência os requisitos solicitados, onde:
-
 ## General info
 Projeto desenvolvido seguindo como referência os requisitos solicitados, onde a API deve:
 * Ler o arquivo CSV dos filmes e inserir os dados em uma base de dados ao inciar a aplicação.
@@ -62,11 +60,9 @@ URL base
 
 
 ## Obtêm dados vencedores
-Obtêm o  produtor com  maior  intervalo  entre  dois  prêmiosconsecutivos,  e  o  que obteve dois prêmios mais rápido
+Obtêm o  produtor com  maior  intervalo  entre  dois  prêmios consecutivos,  e  o  que obteve dois prêmios mais rápido
 
 ### Request
-
-URL base
 
 `GET http://localhost:8080/api/texoit/v1/films/find/winners/interval/min/max`
 
