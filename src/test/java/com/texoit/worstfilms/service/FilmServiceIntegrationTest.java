@@ -32,7 +32,7 @@ public class FilmServiceIntegrationTest {
     }
 
     @Test
-    public void testSizeOfIimportedData() {
+    public void testSizeOfImportedData() {
         List<Film> filmsFromDataBase = filmService.findAll();
         Assertions.assertThat(filmsFromDataBase.size()).isEqualTo(dtos.size());
     }

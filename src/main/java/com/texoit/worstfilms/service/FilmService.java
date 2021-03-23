@@ -23,9 +23,6 @@ public class FilmService {
 
     static Logger LOGGER = Logger.getLogger(FilmService.class);
 
-    //caso for executar pelo JAR ou WAR
-    //public static final String CSV_FILE = "classpath:movielist.csv";
-
     //public static final String CSV_FILE = "movielist.csv";
     public static final String CSV_FILE = "movielist_with_max.csv";
 
@@ -50,13 +47,15 @@ public class FilmService {
     private List<Film> parseCsvDtoFileToFilm() {
         final List<FilmCsvDTO> csvDto = readCsvFile();
         List<Film> films = new ArrayList();
-        csvDto.stream().forEach((dto) -> films.add(Film.builder().
-                year(dto.getYear()).
-                title(dto.getTitle()).
-                studios(dto.getStudios()).
-                producers(dto.getProducers()).
-                isWinner(dto.isWinner()).
-                build()));
+        if(csvDto != null){
+            csvDto.stream().forEach((dto) -> films.add(Film.builder().
+                    year(dto.getYear()).
+                    title(dto.getTitle()).
+                    studios(dto.getStudios()).
+                    producers(dto.getProducers()).
+                    isWinner(dto.isWinner()).
+                    build()));
+        }
         return films;
     }
 

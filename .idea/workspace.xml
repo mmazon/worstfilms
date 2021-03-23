@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5153843-7e97-468a-859c-da7d1df4f7eb" name="Default Changelist" comment="" />
+    <list default="true" id="b5153843-7e97-468a-859c-da7d1df4f7eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/texoit/worstfilms/service/FilmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/texoit/worstfilms/service/FilmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.texoit.worstfilms.WorstfilmsApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.texoit.worstfilms.service.FilmServiceIntegrationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.texoit.worstfilms.WorstfilmsApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.texoit.worstfilms.service.FilmServiceIntegrationTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/texoit/worstfilms/service/FilmServiceIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/texoit/worstfilms/service/FilmServiceIntegrationTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +43,8 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,6 +54,7 @@
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="14" />
+          <entry key="md" value="1" />
           <entry key="properties" value="2" />
           <entry key="txt" value="1" />
           <entry key="xml" value="3" />
@@ -49,7 +66,7 @@
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="14" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
           <entry key="YAML" value="1" />
@@ -59,16 +76,16 @@
         <counts>
           <entry key="csv" value="84" />
           <entry key="dummy" value="58" />
-          <entry key="java" value="4762" />
+          <entry key="java" value="4796" />
           <entry key="properties" value="7" />
-          <entry key="txt" value="20" />
+          <entry key="txt" value="33" />
           <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4762" />
-          <entry key="PLAIN_TEXT" value="162" />
+          <entry key="JAVA" value="4796" />
+          <entry key="PLAIN_TEXT" value="175" />
           <entry key="Properties" value="7" />
           <entry key="XML" value="27" />
         </counts>
@@ -80,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/WorstfilmsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
@@ -93,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/dto/FilmCsvDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="150">
               <caret line="16" column="52" selection-start-line="14" selection-start-column="24" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,15 +122,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="241">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1959#1960#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="116" column="88" selection-start-line="116" selection-start-column="88" selection-end-line="116" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -122,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/WorstfilmsApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,22 +155,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="495">
+              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -162,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/movielist.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3090">
-              <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+              <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -170,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="1320">
               <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
             </state>
           </provider>
@@ -230,11 +241,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/rest/FilmController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movielist.csv" />
         <option value="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/WorstfilmsApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -250,10 +262,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
+    <option name="x" value="1421" />
     <option name="y" value="-4" />
-    <option name="width" value="1311" />
-    <option name="height" value="772" />
+    <option name="width" value="1865" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -298,6 +310,13 @@
               <item name="worstfilms" type="b2602c69:ProjectViewProjectNode" />
               <item name="worstfilms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worstfilms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worstfilms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,6 +333,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="worstfilms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worstfilms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worstfilms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="worstfilms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worstfilms" type="b2602c69:ProjectViewProjectNode" />
@@ -363,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmServiceIntegrationTest">
+  <component name="RunManager" selected="Application.WorstfilmsApplication">
     <configuration name="WorstfilmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../.sdkman/candidates/java/11.0.2-open" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -439,6 +467,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorstfilmsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worstfilms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.texoit.worstfilms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-8-oracle/jre" />
+      <option name="PACKAGE_NAME" value="com.texoit.worstfilms" />
+      <option name="MAIN_CLASS_NAME" value="com.texoit.worstfilms.WorstfilmsApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-8-oracle/jre" />
@@ -461,12 +506,14 @@
       <item itemvalue="JUnit.FilmServiceIntegrationTest.registrationWorksThroughAllLayers" />
       <item itemvalue="JUnit.FilmServiceIntegrationTest.testSizeOfIimportedData" />
       <item itemvalue="JUnit.FilmServiceIntegrationTest" />
+      <item itemvalue="JUnit.WorstfilmsApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorstfilmsApplication" />
+        <item itemvalue="JUnit.WorstfilmsApplicationTests" />
         <item itemvalue="JUnit.FilmServiceIntegrationTest" />
         <item itemvalue="JUnit.FilmServiceIntegrationTest.testSizeOfIimportedData" />
-        <item itemvalue="Application.WorstfilmsApplication" />
         <item itemvalue="JUnit.FilmServiceIntegrationTest.registrationWorksThroughAllLayers" />
       </list>
     </recent_temporary>
@@ -485,12 +532,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FilmServiceIntegrationTest_registrationWorksThroughAllLayers - 2021.03.22 at 21h 34m 59s.xml">
-      <configuration name="FilmServiceIntegrationTest.registrationWorksThroughAllLayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FilmServiceIntegrationTest_registrationWorksThroughAllLayers - 2021.03.22 at 21h 36m 04s.xml">
-      <configuration name="FilmServiceIntegrationTest.registrationWorksThroughAllLayers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FilmServiceIntegrationTest_registrationWorksThroughAllLayers - 2021.03.22 at 21h 38m 01s.xml">
       <configuration name="FilmServiceIntegrationTest.registrationWorksThroughAllLayers" configurationId="JUnit" />
     </history-entry>
@@ -515,11 +556,18 @@
     <history-entry file="FilmServiceIntegrationTest - 2021.03.22 at 21h 58m 29s.xml">
       <configuration name="FilmServiceIntegrationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WorstfilmsApplicationTests - 2021.03.23 at 18h 10m 29s.xml">
+      <configuration name="WorstfilmsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorstfilmsApplicationTests - 2021.03.23 at 18h 10m 51s.xml">
+      <configuration name="WorstfilmsApplicationTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
+    <frame x="1421" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36679843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25948322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,7 +575,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27870563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,16 +583,16 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.49068323" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32985386" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32985157" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2980237" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.20670699" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32985157" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -677,9 +725,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.5/spring-beans-5.3.5.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1318" selection-start-line="1318" selection-end-line="1318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worstfilms.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/WorstfilmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/dto/FilmCsvDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="150">
           <caret line="16" column="52" selection-start-line="14" selection-start-column="24" selection-end-line="16" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -690,81 +760,54 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/WorstfilmsApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movielist.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3090">
+          <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="1320">
           <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.5/spring-beans-5.3.5.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="1318" selection-start-line="1318" selection-end-line="1318" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/WorstfilmsApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worstfilms.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movielist.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/texoit/worstfilms/service/FilmServiceIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        <state relative-caret-position="495">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/texoit/worstfilms/service/FilmService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="241">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="116" column="88" selection-start-line="116" selection-start-column="88" selection-end-line="116" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -858,6 +901,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean package -Dmaven.test.skip=true" />
+    <option value="clean package" />
     <option value="test" />
     <option value="clean install" />
   </component>

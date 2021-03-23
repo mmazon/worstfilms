@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.texoit.worstfilms.WorstfilmsApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.357 s - in com.texoit.worstfilms.WorstfilmsApplicationTests
