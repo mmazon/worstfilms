@@ -71,18 +71,6 @@ Obtêm o  produtor com  maior  intervalo  entre  dois  prêmios consecutivos,  e
 {
   "min": [
     {
-      "producer": "Allan Carr",
-      "interval": 1,
-      "previousWin": 1979,
-      "followingWin": 1980
-    },
-    {
-      "producer": "Robert R. Weston",
-      "interval": 1,
-      "previousWin": 1983,
-      "followingWin": 1984
-    },
-    {
       "producer": "Joel Silver",
       "interval": 1,
       "previousWin": 1990,
@@ -91,16 +79,10 @@ Obtêm o  produtor com  maior  intervalo  entre  dois  prêmios consecutivos,  e
   ],
   "max": [
     {
-      "producer": "Robert R. Weston",
-      "interval": 35,
-      "previousWin": 1984,
-      "followingWin": 2019
-    },
-    {
-      "producer": "Allan Carr",
-      "interval": 35,
-      "previousWin": 1986,
-      "followingWin": 2021
+      "producer": "Matthew Vaughn",
+      "interval": 13,
+      "previousWin": 2002,
+      "followingWin": 2015
     }
   ]
 }
