@@ -23,8 +23,7 @@ public class FilmService {
 
     static Logger LOGGER = Logger.getLogger(FilmService.class);
 
-    //public static final String CSV_FILE = "movielist.csv";
-    public static final String CSV_FILE = "movielist_with_max.csv";
+    public static final String CSV_FILE = "movielist.csv";
 
     @Autowired
     private FilmRepository filmRepository;
@@ -92,83 +91,14 @@ public class FilmService {
         }
 
         ProducerResource resourceProducer = new ProducerResource();
-        resourceProducer.setMin(retrieveMinDataProducer(producerMapGrouped));
-        resourceProducer.setMax(retrieveMaxDataProducer(producerMapGrouped));
+        resourceProducer.setMin(retrieveCalculatedDataProducer(producerMapGrouped, false));
+        resourceProducer.setMax(retrieveCalculatedDataProducer(producerMapGrouped, true));
 
         return resourceProducer;
     }
 
-    private List<ProducerDTO> retrieveMaxDataProducer(Map<String, List<Integer>> producerMapGrouped){
-        int interval = 0;
-        List<ProducerDTO> producerDtoList = new ArrayList<>();
-        for (Map.Entry<String, List<Integer>> entry : producerMapGrouped.entrySet()) {
-            List<Integer> winnerYears = entry.getValue();
-            //verifico apenas os que ganharam mais de uma vez
-            if(winnerYears != null && winnerYears.size() > 1){
-                int currentYear = 0;
-                List<Integer> consecutiveYears = new ArrayList<>();
-                for(Integer year : winnerYears){
-                    //primeiro ano
-                    if(currentYear == 0){
-                        currentYear = year;
-                        continue;
-                    }
-
-                    //premio consecutivo, adiciono na lista o ultimo ano vencedor para calular posteriormente
-                    if(year - currentYear == 1){
-                        consecutiveYears.add(year);
-                    }
-
-                    currentYear = year;
-                }
-
-                //há mais de 1 anos consecutivos do produtor
-                if(consecutiveYears.size() > 1){
-                    int currentYearWinner = 0;
-                    int currentInterval = 0;
-                    for(Integer year : consecutiveYears){
-
-                        if(currentYearWinner == 0){
-                            currentYearWinner = year;
-                            continue;
-                        }
-
-                        currentInterval = year - currentYearWinner;
-
-                        if(currentInterval > interval){
-                            interval = currentInterval;
-
-                            ProducerDTO producerDto = new ProducerDTO();
-                            producerDto.setProducer(entry.getKey());
-                            producerDto.setInterval(interval);
-                            producerDto.setPreviousWin(currentYearWinner);
-                            producerDto.setFollowingWin(year);
-                            producerDtoList.add(producerDto);
-                        }
-
-                        currentYearWinner = year;
-
-                    }
-                    interval = 0;
-                }
-            }
-        }
-
-        return handleFinalMaxData(producerDtoList);
-    }
-
-    private List<ProducerDTO> handleFinalMaxData(List<ProducerDTO> producerDtoList) {
-        List<ProducerDTO> producerMax = new ArrayList<>();
-        if(producerDtoList != null && producerDtoList.size() > 0) {
-            producerDtoList.sort(Comparator.comparingInt(ProducerDTO::getInterval).reversed());
-            int first = producerDtoList.get(0).getInterval();
-            producerMax = producerDtoList.stream().filter(p -> p.getInterval() == first).collect(Collectors.toList());
-        }
-        return producerMax;
-    }
-
-    private List<ProducerDTO> retrieveMinDataProducer(Map<String, List<Integer>> producerMapGrouped){
-        int interval = -1;
+    private List<ProducerDTO> retrieveCalculatedDataProducer(Map<String, List<Integer>> producerMapGrouped, Boolean isMax){
+        int interval = 1;
         List<ProducerDTO> producerDtoList = new ArrayList<>();
         for (Map.Entry<String, List<Integer>> entry : producerMapGrouped.entrySet()) {
             List<Integer> winnerYears = entry.getValue();
@@ -185,7 +115,7 @@ public class FilmService {
 
                     currentInterval = year - currentYear;
 
-                    if(currentInterval <= interval || interval < 0) {
+                    if(handleCalculateInterval(currentInterval, interval, isMax)) {
                         ProducerDTO producerDto = new ProducerDTO();
                         interval = currentInterval;
                         producerDto.setProducer(entry.getKey());
@@ -196,29 +126,38 @@ public class FilmService {
                     }
                     currentYear = year;
                 }
-                interval = -1;
+                interval = 1;
             }
         }
 
-        return handleFinalMinData(producerDtoList);
+        return handleFinalData(producerDtoList, isMax);
     }
 
-    private List<ProducerDTO> handleFinalMinData(List<ProducerDTO> producerDtoList) {
-        List<ProducerDTO> producerMin = new ArrayList<>();
+    private Boolean handleCalculateInterval(int currentInterval, int interval, Boolean isMax){
+        if(isMax)
+            return currentInterval >= interval;
+        else
+            return currentInterval <= interval;
+    }
+
+    private List<ProducerDTO> handleFinalData(List<ProducerDTO> producerDtoList, Boolean isMax) {
+        List<ProducerDTO> producerMax = new ArrayList<>();
         if(producerDtoList != null && producerDtoList.size() > 0) {
             List<ProducerDTO> producersSorted;
             //orderno por interval para pegar o menor valor
-            producerDtoList.sort(Comparator.comparingInt(ProducerDTO::getInterval));
+            if(isMax)
+                producerDtoList.sort(Comparator.comparingInt(ProducerDTO::getInterval).reversed());
+            else
+                producerDtoList.sort(Comparator.comparingInt(ProducerDTO::getInterval));
             int first = producerDtoList.get(0).getInterval();
             //deixo apenas os intervals com menor valores
             producersSorted = producerDtoList.stream().filter(p -> p.getInterval() == first).collect(Collectors.toList());
             Set<String> nameSet = new HashSet<>();
             //removo producers repetidos com o mesmo interval
-            producerMin = producersSorted.stream().filter(e -> nameSet.add(e.getProducer())).collect(Collectors.toList());
+            producerMax = producersSorted.stream().filter(e -> nameSet.add(e.getProducer())).collect(Collectors.toList());
             //ordeno pelo menor ano vencedor
-            producerMin.sort(Comparator.comparingInt(ProducerDTO::getPreviousWin));
+            producerMax.sort(Comparator.comparingInt(ProducerDTO::getPreviousWin));
         }
-        return producerMin;
+        return producerMax;
     }
-
 }
