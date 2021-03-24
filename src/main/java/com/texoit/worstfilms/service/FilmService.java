@@ -141,7 +141,7 @@ public class FilmService {
     }
 
     private List<ProducerDTO> handleFinalData(List<ProducerDTO> producerDtoList, Boolean isMax) {
-        List<ProducerDTO> producerMax = new ArrayList<>();
+        List<ProducerDTO> producers = new ArrayList<>();
         if(producerDtoList != null && producerDtoList.size() > 0) {
             List<ProducerDTO> producersSorted;
             //orderno por interval para pegar o menor valor
@@ -154,10 +154,10 @@ public class FilmService {
             producersSorted = producerDtoList.stream().filter(p -> p.getInterval() == first).collect(Collectors.toList());
             Set<String> nameSet = new HashSet<>();
             //removo producers repetidos com o mesmo interval
-            producerMax = producersSorted.stream().filter(e -> nameSet.add(e.getProducer())).collect(Collectors.toList());
+            producers = producersSorted.stream().filter(e -> nameSet.add(e.getProducer())).collect(Collectors.toList());
             //ordeno pelo menor ano vencedor
-            producerMax.sort(Comparator.comparingInt(ProducerDTO::getPreviousWin));
+            producers.sort(Comparator.comparingInt(ProducerDTO::getPreviousWin));
         }
-        return producerMax;
+        return producers;
     }
 }
